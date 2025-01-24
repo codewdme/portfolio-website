@@ -22,7 +22,7 @@ const Hero = () => {
           </Reveal>
           <Reveal>
             <p className="pointer-events-auto leading-relaxed md:leading-relaxed max-w-xl text-sm text-zinc-300 md:text-base">
-              I've spent the last 2 years building and scaling softwares and
+              I've spent the last 3 years building and scaling softwares and
               websites for some pretty cool businesses. Let's connect!
             </p>
           </Reveal>

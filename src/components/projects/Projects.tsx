@@ -18,6 +18,393 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "Digital Fry",
+    imgSrc: "project-imgs/digital-fry-2025.png",
+    code: `https://github.com/codewdme/digital-fry-website.git`,
+    projectLink: `https://www.digitalfry.in/`,
+    tech: [
+      "NextJS",
+      "React",
+      "Vercel",
+      "Git",
+      "GitHub",
+      "Framer Motion",
+      "Resend API",
+    ],
+    description:
+      "A Agency Website. This website is my most recent work, designed and built on my own.",
+    modalContent: (
+      <>
+        {/* <p>
+          Pain.app is a real-time coaching app for students learning to paint.
+          This app is my baby, designed and built on my own.
+        </p>
+        <p>
+          The tech stack is based on top of Flutter for the mobile app,
+          connected to a Python & FastAPI backend, with data stored in Postgres,
+          deployed on Heroku.
+        </p>
+        <p>
+          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
+          {":)"}
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+          quia officia odio nulla consectetur aperiam ad tempora magni magnam
+          nesciunt.
+        </p>
+        <p>
+          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
+          rerum dolorum. Deserunt soluta modi culpa animi.
+        </p> */}
+      </>
+    ),
+  },
+  {
+    title: "Aroro Hyundai Website",
+    imgSrc: "project-imgs/arora-hyundai.png",
+    code: `https://github.com/codewdme/arora-hyundai-website.git`,
+    projectLink: `https://www.arorahyundai.com/`,
+    tech: [
+      "NextJS",
+      "React",
+      "Vercel",
+      "Git",
+      "GitHub",
+      "Framer Motion",
+      "Resend API",
+    ],
+    description:
+      "A Crypto Wallet Website. This website is my most recent work, designed and built on my own.",
+    modalContent: (
+      <>
+        {/* <p>
+          Pain.app is a real-time coaching app for students learning to paint.
+          This app is my baby, designed and built on my own.
+        </p>
+        <p>
+          The tech stack is based on top of Flutter for the mobile app,
+          connected to a Python & FastAPI backend, with data stored in Postgres,
+          deployed on Heroku.
+        </p>
+        <p>
+          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
+          {":)"}
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+          quia officia odio nulla consectetur aperiam ad tempora magni magnam
+          nesciunt.
+        </p>
+        <p>
+          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
+          rerum dolorum. Deserunt soluta modi culpa animi.
+        </p> */}
+      </>
+    ),
+  },
+  {
+    title: "NexPay",
+    imgSrc: "project-imgs/nexpay.png",
+    code: `https://github.com/codewdme/nexpay.git`,
+    projectLink: `https://nexpay.vercel.app/`,
+    tech: [
+      "NextJS",
+      "React",
+      "Vercel",
+      "Git",
+      "GitHub",
+      "Framer Motion",
+      "Resend API",
+    ],
+    description:
+      "A Crypto Wallet Website. This website is my most recent work, designed and built on my own.",
+    modalContent: (
+      <>
+        {/* <p>
+          Pain.app is a real-time coaching app for students learning to paint.
+          This app is my baby, designed and built on my own.
+        </p>
+        <p>
+          The tech stack is based on top of Flutter for the mobile app,
+          connected to a Python & FastAPI backend, with data stored in Postgres,
+          deployed on Heroku.
+        </p>
+        <p>
+          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
+          {":)"}
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+          quia officia odio nulla consectetur aperiam ad tempora magni magnam
+          nesciunt.
+        </p>
+        <p>
+          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
+          rerum dolorum. Deserunt soluta modi culpa animi.
+        </p> */}
+      </>
+    ),
+  },
+  {
+    title: "O2 Gym India",
+    imgSrc: "project-imgs/o2gym.png",
+    code: `https://github.com/codewdme/o2-gym-website.git`,
+    projectLink: `https://www.o2gymindia.com/`,
+    tech: [
+      "NextJS",
+      "React",
+      "Vercel",
+      "Git",
+      "GitHub",
+      "Framer Motion",
+      "Resend API",
+    ],
+    description:
+      "A Cafe Website. This website is my most recent work, designed and built on my own.",
+    modalContent: (
+      <>
+        {/* <p>
+          Pain.app is a real-time coaching app for students learning to paint.
+          This app is my baby, designed and built on my own.
+        </p>
+        <p>
+          The tech stack is based on top of Flutter for the mobile app,
+          connected to a Python & FastAPI backend, with data stored in Postgres,
+          deployed on Heroku.
+        </p>
+        <p>
+          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
+          {":)"}
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+          quia officia odio nulla consectetur aperiam ad tempora magni magnam
+          nesciunt.
+        </p>
+        <p>
+          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
+          rerum dolorum. Deserunt soluta modi culpa animi.
+        </p> */}
+      </>
+    ),
+  },
+  {
+    title: "Osito",
+    imgSrc: "project-imgs/osito.png",
+    code: `https://github.com/codewdme`,
+    projectLink: `https://ositojaipur.com/`,
+    tech: [
+      "NextJS",
+      "React",
+      "Vercel",
+      "Git",
+      "GitHub",
+      "Framer Motion",
+      "Resend API",
+    ],
+    description:
+      "A Cafe Website. This website is my most recent work, designed and built on my own.",
+    modalContent: (
+      <>
+        {/* <p>
+          Pain.app is a real-time coaching app for students learning to paint.
+          This app is my baby, designed and built on my own.
+        </p>
+        <p>
+          The tech stack is based on top of Flutter for the mobile app,
+          connected to a Python & FastAPI backend, with data stored in Postgres,
+          deployed on Heroku.
+        </p>
+        <p>
+          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
+          {":)"}
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+          quia officia odio nulla consectetur aperiam ad tempora magni magnam
+          nesciunt.
+        </p>
+        <p>
+          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
+          rerum dolorum. Deserunt soluta modi culpa animi.
+        </p> */}
+      </>
+    ),
+  },
+  {
+    title: "Bombay Engineering Company",
+    imgSrc: "project-imgs/wheels-of-world.png",
+    code: `https://github.com/vrajbhingradiya-work/bsmw-website.git`,
+    projectLink: `https://www.bombayengg.co.in`,
+    tech: [
+      "NextJS",
+      "React",
+      "Vercel",
+      "Git",
+      "GitHub",
+      "Framer Motion",
+      "Resend API",
+    ],
+    description:
+      "A Engineering Company website. This website is my most recent work, designed and built on my own.",
+    modalContent: (
+      <>
+        {/* <p>
+          Pain.app is a real-time coaching app for students learning to paint.
+          This app is my baby, designed and built on my own.
+        </p>
+        <p>
+          The tech stack is based on top of Flutter for the mobile app,
+          connected to a Python & FastAPI backend, with data stored in Postgres,
+          deployed on Heroku.
+        </p>
+        <p>
+          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
+          {":)"}
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+          quia officia odio nulla consectetur aperiam ad tempora magni magnam
+          nesciunt.
+        </p>
+        <p>
+          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
+          rerum dolorum. Deserunt soluta modi culpa animi.
+        </p> */}
+      </>
+    ),
+  },
+  {
+    title: "Wheels Of World",
+    imgSrc: "project-imgs/wheels-of-world.png",
+    code: `https://github.com/vrajbhingradiya-work/wheels-of-world-website.git`,
+    projectLink: "https://www.wheelsofworld.in/",
+    tech: [
+      "NextJS",
+      "React",
+      "Vercel",
+      "Git",
+      "GitHub",
+      "Framer Motion",
+      "Resend API",
+    ],
+    description:
+      "A  car dealership website. This website is my most recent work, designed and built on my own.",
+    modalContent: (
+      <>
+        {/* <p>
+          Pain.app is a real-time coaching app for students learning to paint.
+          This app is my baby, designed and built on my own.
+        </p>
+        <p>
+          The tech stack is based on top of Flutter for the mobile app,
+          connected to a Python & FastAPI backend, with data stored in Postgres,
+          deployed on Heroku.
+        </p>
+        <p>
+          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
+          {":)"}
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+          quia officia odio nulla consectetur aperiam ad tempora magni magnam
+          nesciunt.
+        </p>
+        <p>
+          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
+          rerum dolorum. Deserunt soluta modi culpa animi.
+        </p> */}
+      </>
+    ),
+  },
+  {
+    title: "ARGT",
+    imgSrc: "project-imgs/argt.png",
+    code: `https://github.com/codewdme/argt-website.git`,
+    projectLink: "https://www.alroshangroups.com/",
+    tech: [
+      "NextJS",
+      "React",
+      "Vercel",
+      "Git",
+      "GitHub",
+      "Framer Motion",
+      "Resend API",
+    ],
+    description:
+      "A  business landing page. This website is my most recent work, designed and built on my own.",
+    modalContent: (
+      <>
+        {/* <p>
+          Pain.app is a real-time coaching app for students learning to paint.
+          This app is my baby, designed and built on my own.
+        </p>
+        <p>
+          The tech stack is based on top of Flutter for the mobile app,
+          connected to a Python & FastAPI backend, with data stored in Postgres,
+          deployed on Heroku.
+        </p>
+        <p>
+          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
+          {":)"}
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+          quia officia odio nulla consectetur aperiam ad tempora magni magnam
+          nesciunt.
+        </p>
+        <p>
+          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
+          rerum dolorum. Deserunt soluta modi culpa animi.
+        </p> */}
+      </>
+    ),
+  },
+  {
+    title: "Dorothea",
+    imgSrc: "project-imgs/dorothea.png",
+    code: `https://github.com/codewdme/dorothea-website.git`,
+    projectLink: "https://www.dorotheajaipur.in/",
+    tech: [
+      "NextJS",
+      "React",
+      "Vercel",
+      "Git",
+      "GitHub",
+      "Framer Motion",
+      "Resend API",
+    ],
+    description:
+      "A cafe - restaurant landing page. This website is my most recent work, designed and built on my own.",
+    modalContent: (
+      <>
+        {/* <p>
+          Pain.app is a real-time coaching app for students learning to paint.
+          This app is my baby, designed and built on my own.
+        </p>
+        <p>
+          The tech stack is based on top of Flutter for the mobile app,
+          connected to a Python & FastAPI backend, with data stored in Postgres,
+          deployed on Heroku.
+        </p>
+        <p>
+          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
+          {":)"}
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+          quia officia odio nulla consectetur aperiam ad tempora magni magnam
+          nesciunt.
+        </p>
+        <p>
+          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
+          rerum dolorum. Deserunt soluta modi culpa animi.
+        </p> */}
+      </>
+    ),
+  },
+  {
     title: "Havana Cafe",
     imgSrc: "project-imgs/havana-mockup.png",
     code: "https://github.com/vrajbhingradiya-work/havana-cafe-website",
