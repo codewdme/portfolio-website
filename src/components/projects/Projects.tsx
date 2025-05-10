@@ -18,6 +18,83 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "Quiz Web App",
+    imgSrc: "project-imgs/quiz-app.png",
+    code: `https://github.com/codewdme/quiz-web-app.git`,
+    projectLink: `https://quiz-web-app-theta.vercel.app/`,
+    tech: ["NextJS", "React", "Vercel", "Git", "GitHub", "Resend API"],
+    description:
+      "A Quiz Web App. This website is my most recent work, designed and built on my own.",
+    modalContent: (
+      <>
+        {/* <p>
+          Pain.app is a real-time coaching app for students learning to paint.
+          This app is my baby, designed and built on my own.
+        </p>
+        <p>
+          The tech stack is based on top of MERN stack,
+          connected to a NextJS backend, with data stored in MongoDB,
+          deployed on Vercel.
+        </p>
+      */}
+      </>
+    ),
+  },
+  {
+    title: "Culina | Modern Dining Experience",
+    imgSrc: "project-imgs/restaurant-app.png",
+    code: `https://github.com/codewdme/restaurant-web-app.git`,
+    projectLink: `https://restaurant-web-app-pied.vercel.app/`,
+    tech: ["NextJS", "React", "Vercel", "Git", "GitHub", "Resend API"],
+    description:
+      "A Modern Dining Experience. A complete restaurant management system. This website is my most recent work, designed and built on my own.",
+    modalContent: (
+      <>
+        {/* <p>
+          Pain.app is a real-time coaching app for students learning to paint.
+          This app is my baby, designed and built on my own.
+        </p>
+        <p>
+          The tech stack is based on top of MERN stack,
+          connected to a NextJS backend, with data stored in MongoDB,
+          deployed on Vercel.
+        </p>
+      */}
+      </>
+    ),
+  },
+  {
+    title: "Hosting Management System",
+    imgSrc: "project-imgs/hosting-management-app.png",
+    code: `https://github.com/codewdme/hosting-management.git`,
+    projectLink: `https://hosting-management-nine.vercel.app`,
+    tech: [
+      "NextJS",
+      "React",
+      "TypeScript",
+      "Vercel",
+      "Git",
+      "GitHub",
+      "Resend API",
+    ],
+    description:
+      "A Hosting Management System. This website is my most recent work, designed and built on my own.",
+    modalContent: (
+      <>
+        {/* <p>
+          Pain.app is a real-time coaching app for students learning to paint.
+          This app is my baby, designed and built on my own.
+        </p>
+        <p>
+          The tech stack is based on top of MERN stack,
+          connected to a NextJS backend, with data stored in MongoDB,
+          deployed on Vercel.
+        </p>
+      */}
+      </>
+    ),
+  },
+  {
     title: "Digital Fry",
     imgSrc: "project-imgs/digital-fry-2025.png",
     code: `https://github.com/codewdme/digital-fry-website.git`,
@@ -161,7 +238,7 @@ const projects = [
       "Resend API",
     ],
     description:
-      "A Cafe Website. This website is my most recent work, designed and built on my own.",
+      "A Gym Website Landing Page. This website is my most recent work, designed and built on my own.",
     modalContent: (
       <>
         {/* <p>
@@ -189,52 +266,53 @@ const projects = [
       </>
     ),
   },
-  {
-    title: "Osito",
-    imgSrc: "project-imgs/osito.png",
-    code: `https://github.com/codewdme`,
-    projectLink: `https://ositojaipur.com/`,
-    tech: [
-      "NextJS",
-      "React",
-      "Vercel",
-      "Git",
-      "GitHub",
-      "Framer Motion",
-      "Resend API",
-    ],
-    description:
-      "A Cafe Website. This website is my most recent work, designed and built on my own.",
-    modalContent: (
-      <>
-        {/* <p>
-          Pain.app is a real-time coaching app for students learning to paint.
-          This app is my baby, designed and built on my own.
-        </p>
-        <p>
-          The tech stack is based on top of Flutter for the mobile app,
-          connected to a Python & FastAPI backend, with data stored in Postgres,
-          deployed on Heroku.
-        </p>
-        <p>
-          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
-          {":)"}
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
-        </p>
-        <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
-        </p> */}
-      </>
-    ),
-  },
+
+  // {
+  //   title: "Osito",
+  //   imgSrc: "project-imgs/osito.png",
+  //   code: `https://github.com/codewdme`,
+  //   projectLink: `https://ositojaipur.com/`,
+  //   tech: [
+  //     "NextJS",
+  //     "React",
+  //     "Vercel",
+  //     "Git",
+  //     "GitHub",
+  //     "Framer Motion",
+  //     "Resend API",
+  //   ],
+  //   description:
+  //     "A Cafe Website. This website is my most recent work, designed and built on my own.",
+  //   modalContent: (
+  //     <>
+  //       {/* <p>
+  //         Pain.app is a real-time coaching app for students learning to paint.
+  //         This app is my baby, designed and built on my own.
+  //       </p>
+  //       <p>
+  //         The tech stack is based on top of Flutter for the mobile app,
+  //         connected to a Python & FastAPI backend, with data stored in Postgres,
+  //         deployed on Heroku.
+  //       </p>
+  //       <p>
+  //         Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
+  //         {":)"}
+  //       </p>
+  //       <p>
+  //         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+  //         quia officia odio nulla consectetur aperiam ad tempora magni magnam
+  //         nesciunt.
+  //       </p>
+  //       <p>
+  //         Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
+  //         rerum dolorum. Deserunt soluta modi culpa animi.
+  //       </p> */}
+  //     </>
+  //   ),
+  // },
   {
     title: "Bombay Engineering Company",
-    imgSrc: "project-imgs/wheels-of-world.png",
+    imgSrc: "project-imgs/beamw-website.png",
     code: `https://github.com/vrajbhingradiya-work/bsmw-website.git`,
     projectLink: `https://www.bombayengg.co.in`,
     tech: [
