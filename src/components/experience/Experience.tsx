@@ -16,10 +16,10 @@ const experience = [
   {
     title: "Digital Fry",
     position: "Web Developer",
-    time: "2023 - Present",
-    location: "India",
+    time: "July 2024 - May 2025",
+    location: "Jaipur, Rajasthan",
     description:
-      "Developed an end to end Business website for Digital Fry and its Clients using React framework. Created a backend Integrated MERN stack website ( https://digital-fry-website.vercel.app/ ) for their business requirements. Used Framer Motion library to create eye catching animations, NodeJS and Express for Backend Configuration and Vercel for website Deployment.",
+      "Developed an end-to-end business website for Digital Fry and its clients using the React framework and MERN stack, meeting business requirements. Implemented eye-catching animations using the Framer Motion library. Learned to configure the backend with Node.js and Express, deployed the website using Vercel, and gained knowledge in configuring domains.",
     tech: [
       "NextJS",
       "React",
@@ -34,7 +34,7 @@ const experience = [
   {
     title: "SK Digital Marketing",
     position: "Web Developer",
-    time: "June 2024 - July 2024",
+    time: "June 2022 - July 2024",
     location: "Jaipur, Rajasthan",
     description:
       "Web Developer for Quality Cars. I Developed and maintained the website to keep it up to date and running smoothly. Used Framer Motion for animations, Redux for state management, and MongoDB for data storage. Also, enjoyed a few car meet ups with the team. It was a great time.",
