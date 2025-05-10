@@ -95,6 +95,50 @@ const projects = [
     ),
   },
   {
+    title: "Quality Cars",
+    imgSrc: "project-imgs/quality-cars-mockup.png",
+    code: "https://github.com/vrajbhingradiya-work/quality-cars-website",
+    projectLink: "https://www.qualitycars.in/",
+    tech: [
+      "NextJS",
+      "React",
+      "MongoDB",
+      "Vercel",
+      "Git",
+      "GitHub",
+      "Framer Motion",
+      "Resend API",
+    ],
+    description:
+      "A real-time pre-owned car dealership website for buying and selling cars. This website is my most recent work, designed and built on my own.",
+    modalContent: (
+      <>
+        {/* <p>
+          Pain.app is a real-time coaching app for students learning to paint.
+          This app is my baby, designed and built on my own.
+        </p>
+        <p>
+          The tech stack is based on top of Flutter for the mobile app,
+          connected to a Python & FastAPI backend, with data stored in Postgres,
+          deployed on Heroku.
+        </p>
+        <p>
+          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
+          {":)"}
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+          quia officia odio nulla consectetur aperiam ad tempora magni magnam
+          nesciunt.
+        </p>
+        <p>
+          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
+          rerum dolorum. Deserunt soluta modi culpa animi.
+        </p> */}
+      </>
+    ),
+  },
+  {
     title: "Digital Fry",
     imgSrc: "project-imgs/digital-fry-2025.png",
     code: `https://github.com/codewdme/digital-fry-website.git`,
@@ -525,50 +569,7 @@ const projects = [
       </>
     ),
   },
-  {
-    title: "Quality Cars",
-    imgSrc: "project-imgs/quality-cars-mockup.png",
-    code: "https://github.com/vrajbhingradiya-work/quality-cars-website",
-    projectLink: "https://www.qualitycars.in/",
-    tech: [
-      "NextJS",
-      "React",
-      "MongoDB",
-      "Vercel",
-      "Git",
-      "GitHub",
-      "Framer Motion",
-      "Resend API",
-    ],
-    description:
-      "A real-time pre-owned car dealership website for buying and selling cars. This website is my most recent work, designed and built on my own.",
-    modalContent: (
-      <>
-        {/* <p>
-          Pain.app is a real-time coaching app for students learning to paint.
-          This app is my baby, designed and built on my own.
-        </p>
-        <p>
-          The tech stack is based on top of Flutter for the mobile app,
-          connected to a Python & FastAPI backend, with data stored in Postgres,
-          deployed on Heroku.
-        </p>
-        <p>
-          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
-          {":)"}
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
-        </p>
-        <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
-        </p> */}
-      </>
-    ),
-  },
+
   {
     title: "Digital Fry",
     imgSrc: "project-imgs/digital-fry-mockup.png",
